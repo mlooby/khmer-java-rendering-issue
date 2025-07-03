@@ -28,9 +28,6 @@ Thumbs.db
 jasper-demo/sample-output/
 jasper-demo/khmer_test_output.pdf
 
-# Font JARs if generated locally
-jasper-demo/fonts/*.jar
-
 # Backup and temp files
 *~
 *.swp

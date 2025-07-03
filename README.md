@@ -13,7 +13,6 @@ This project demonstrates issues rendering Khmer text using standard Java text l
 
 - Java **17**
 - Gradle 8+
-- A Unix-compatible system (tested on macOS)
 
 ## ▶️ How to Run
 

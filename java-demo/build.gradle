@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass.set('com.example.KhmerTest')
+}
+
+dependencies {
+    implementation 'com.ibm.icu:icu4j:73.1'
+}
+
+tasks.register('runGlyphVectorDemo', JavaExec) {
+    group = 'application'
+    description = 'Run KhmerTestGlyphVector using ICU + GlyphVector layout.'
+    mainClass.set('com.example.KhmerTestGlyphVector')
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+

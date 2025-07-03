@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass.set('com.example.GenerateReport')
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jaspersoft.jfrog.io/artifactory/third-party-ce-artifacts/"
+    }
+}
+
+dependencies {
+    implementation 'net.sf.jasperreports:jasperreports:6.21.0'
+    implementation files('fonts/NotoSansKhmer.jar') // Custom font extension
+}
+

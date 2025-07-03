@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.0.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="KhmerTest" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c7f659bb-6d6a-4b6e-9d06-18a217d1a5e8">
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <title>
+        <band height="30">
+            <textField textAdjust="StretchHeight">
+                <reportElement mode="Transparent" x="80" y="0" width="475" height="30" backcolor="#FFFFFF" uuid="40f59583-bf44-4070-98d8-e5a5574f8894"/>
+                <textElement>
+                    <font fontName="NotoSansKhmer" size="14"/>
+                </textElement>
+                <textFieldExpression><![CDATA["ត្ក្នុងឋានៈជាសមាជិកនៃសង្គម មនុស្សគ្រប់រូបមានសិទ្ធិទទួលបានសន្ដិសុខសង្គម និងមានបុព្វសិទ្ធិសម្រេចបានសិទ្ធិខាងសេដ្ឋកិច្ច សង្គមកិច្ច និងវប្បធម៌ ដែលចាំបាច់សម្រាប់សេចក្ដីថ្លៃថ្នូរ និងការរីកចំរើនដោយសេរីនៃបុគ្គលិកលក្ខណៈរបស់ខ្លួន តាមរយៈការខិតខំរបស់ជាតិ និងសហប្រតិបត្ដិការអន្ដរជាតិ និងដោយយោងទៅតាមការរៀបចំ និងធនធានរបស់ប្រទេសនីមួយៗ។ មនុស្សគ្រប់រូបមានសិទ្ធិឈប់សម្រាក និងលំហែកំសាន្ដ រួមបញ្ចូលទាំងកម្រិតម៉ោងការងារសមហេតុផល និងការឈប់សម្រាកដោយបានប្រាក់បៀវត្សតាមពេលកំណត់ទៀងទាត់។ មនុស្សគ្រប់រូបមានសិទ្ធិទទួលបាននូវសណ្ដាប់ធ្នាប់សង្គមនិងអន្ដរជាតិ ដែលធ្វើឱ្យសិទ្ធិ និងសេរីភាពចែងក្នុងសេចក្ដីប្រកាសនេះ អាចសម្រេចបានដោយពេញលេញ។ គ្មានបទបញ្ញត្ដិណាមួយនៃសេចក្ដីប្រកាសនេះ អាចត្រូវបានបកស្រាយតម្រូវថា រដ្ឋណាមួយ ក្រុមណាមួយ ឬបុគ្គលណាម្នាក់ មានសិទ្ធិបែបណាមួយក្នុងការធ្វើសកម្មភាព ឬការប្រព្រឹត្ដអំពើអ្វីមួយដែលសំដៅទៅបំផ្លិចបំផ្លាញនូវសិទ្ធិ និងសេរីភាពទាំងឡាយដែលមានចែងនៅក្នុងសេចក្ដីប្រកាសនេះឡើយ។"]]></textFieldExpression>
+            </textField>
+            <textField textAdjust="StretchHeight">
+                <reportElement mode="Transparent" x="0" y="0" width="70" height="30" backcolor="#FFFFFF" uuid="ce16f72d-e646-412c-8242-0515f95fd6e3"/>
+                <textElement>
+                    <font fontName="NotoSansKhmer" size="14"/>
+                </textElement>
+                <textFieldExpression><![CDATA["Khmer"]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+</jasperReport>

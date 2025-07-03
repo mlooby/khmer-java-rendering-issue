@@ -1,0 +1,44 @@
+# Java build output
+/build/
+**/build/
+
+# Gradle cache and logs
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated PDFs and reports
+**/*.pdf
+jasper-demo/sample-output/
+jasper-demo/khmer_test_output.pdf
+
+# Font JARs if generated locally
+jasper-demo/fonts/*.jar
+
+# Backup and temp files
+*~
+*.swp
+*.bak
+
+# Runtime files
+*.class
+
+# If you ever run gradle with the --build-cache flag
+.cache/
+

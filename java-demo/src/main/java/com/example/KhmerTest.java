@@ -18,11 +18,11 @@ public class KhmerTest {
 
         // Load and register the font
         Font khmerFont = FontService.loadFontFromResources("/fonts/NotoSansKhmer-Regular.ttf", 12f);
-       // GraphicsEnvironment.getLocalGraphicsEnvironment().registerFont(khmerFont);
+       GraphicsEnvironment.getLocalGraphicsEnvironment().registerFont(khmerFont);
 
         // Apply font to attributed string
         AttributedString attrStr = new AttributedString(khmer);
-        //attrStr.addAttribute(TextAttribute.FONT, khmerFont);
+        attrStr.addAttribute(TextAttribute.FONT, khmerFont);
 
         AttributedCharacterIterator it = attrStr.getIterator();
 
